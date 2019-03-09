@@ -5,6 +5,8 @@ import Admin from './admin/';
 import Frontend from './frontend/';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
+import Signup from './admin/authentication/Signup';
+import Login from './admin/authentication/Login';
 
 ReactDOM.render(
     <BrowserRouter>

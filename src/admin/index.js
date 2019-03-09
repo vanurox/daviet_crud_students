@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
-import Dashboard from './dashboard';
+import Dashboard from './dashboard/dashboard';
 import Login from './authentication/Login';
 import cookies from 'react-cookies';
 
 class Index extends Component {
 
     renderPage = () => {
-        if(cookies.load('access_token') === undefined){
+        if (cookies.load('access_token') === undefined) {
             return (
-                <Login/>
+                <Login history={this.props.history} />
             );
         } else {
             return (
-                <Dashboard />
+                <Dashboard history={this.props.history} />
             );
         }
     }
-    render(){
-        return(
+    render() {
+        return (
             <div>
                 {this.renderPage()}
             </div>
