@@ -16,19 +16,19 @@ class Signup extends Component {
                             <h2 className="form-title">Sign up</h2>
                             <form method="POST" className="register-form" id="register-form">
                                 <div className="form-group">
-                                    <label htmlFor="name"><i className="fa fa-lock"></i></label>
+                                    <label htmlFor="name"><i class="fa fa-lock"></i></label>
                                     <input type="text" className="name" id="name" placeholder="Your Name"/>
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="email"><i className="fa fa-envelope"></i></label>
+                                    <label htmlFor="email"><i class="fa fa-envelope"></i></label>
                                     <input type="email" className="email" id="email" placeholder="Your Email"/>
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="pass"><i className="fa fa-lock"></i></label>
+                                    <label htmlFor="pass"><i class="fa fa-lock"></i></label>
                                     <input type="password" className="pass" id="pass" placeholder="Password"/>
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="re-pass"><i className="fa fa-lock"></i></label>
+                                    <label htmlFor="re-pass"><i class="fa fa-lock"></i></label>
                                     <input type="password" className="re_pass" id="re_pass" placeholder="Repeat your password"/>
                                 </div>
                                 <div className="form-group">

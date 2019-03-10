@@ -12,12 +12,12 @@ class Index extends Component {
             );
         } else {
             return (
-                <Dashboard match={this.props.match} history={this.props.history} />
+                <Dashboard history={this.props.history} />
             );
         }
     }
-    render(){
-        return(
+    render() {
+        return (
             <div>
                 {this.renderPage()}
             </div>

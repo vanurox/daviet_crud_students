@@ -51,7 +51,7 @@ class Login extends Component {
                 if (res.msg === "unable to login") {
                     this.showErrorNotification("Wrong Email/Password");
                 } else {
-                    cookies.save('access_token', res.access_token, { path: '/' });
+                    cookies.save('access_token', res.access_token);
                     this.props.history.push("/admin/");
                 }
             })
